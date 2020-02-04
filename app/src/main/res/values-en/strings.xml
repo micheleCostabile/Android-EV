@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    //GLOBAL
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="v_password">Verify password</string>
+    <string name="send">Send</string>
+
+    //LOGIN
+    <string name="login">Login</string>
+    <string name="login2">Please enter your username and password to access</string>
+    //ENDLOGIN
+    <string name="home">Home</string>
+    <string name="nome">Name</string>
+    <string name="cognome">Surname</string>
+
+    //ENDGLOBAL
+
+    <string name="not_yet_registered">Not registered yet? </string>
+    <string name="register_now">Register now</string>
+    <string name="login_failed">The data are incorrect. </string>
+    <string name="missing_data">Please insert your data.</string>
+
+    //Activity_Register
+
+    <string name="registrazione_1">Registration</string>
+    <string name="registrazione_2">Please fill out all fields to register.</string>
+    <string name="sesso">Gender</string>
+    <string name="missingData">Please make sure that you have filled in all fields!</string>
+    <string name="accedi">Login</string>
+    <string name="registrati">Register now</string>
+    <string name="f">F</string>
+    <string name="m">M</string>
+    <string name="home_studente">Home Student</string>
+    <string name="home_segreteria">Home Secretary</string>
+    <string name="home_admin">Home Admin</string>
+    <string name="non_ancora_registrato">Not registered yet?</string>
+    <string name="logo">logo</string>
+    <string name="id">ID</string>
+    <string name="data_rilascio">Release date</string>
+    <string name="data_scadenza">Expiry date</string>
+    <string name="inoltra">Forward</string>
+    <string name="anno">Year</string>
+    <string name="livello">Level</string>
+    <string name="seriale">Serial</string>
+    <string name="cfu_da_validare">CFU to validate</string>
+    <string name="studente">Student</string>
+    <string name="richiesta">Request</string>
+    <string name="anno_accademico">Accademic Year </string>
+    <string name="matricola">Student ID</string>
+    <string name="ente">Institution</string>
+    <string name="ente_di_rilascio">Issuing body</string>
+    <string name="cfu_da_conseguire">CFU to achieve</string>
+    <string name="invia">Send</string>
+    <string name="anno_di_immatricolazione">Year of registration</string>
+    <string name="modifica_profilo">Edit Profile</string>
+    <string name="inserisci_richiesta">Post request</string>
+    <string name="logout">Logout</string>
+    <string name="guida">Training</string>
+    <string name="richieste_approvate">Approved requests</string>
+    <string name="richieste_rifiutate">Rejected requests </string>
+    <string name="rifiuta">REJECT</string>
+    <string name="approva">APPROVED</string>
+    //End Activity_Register
+
+    //SPINNER ENTE
+    <string-array name="enti">
+        <item>Cambridge Assessment English</item>
+        <item>City and Guilds (Pitman)</item>
+        <item>Edexcel /Pearson Ltd </item>
+        <item>Educational Testing Service (ETS)</item>
+        <item>English Speaking Board (ESB)</item>
+        <item>International English Language Testing System (IELTS)</item>
+        <item>Pearson - LCCI</item>
+        <item>Pearson - EDI</item>
+        <item>Trinity College London (TCL)</item>
+        <item>Department of English, Faculty of Arts - University of Malta</item>
+        <item>NQAI - ACELS</item>
+
+    </string-array>
+
+    //SPINNER CFU
+    <string-array name="cfu">
+        <item>3</item>
+        <item>6</item>
+    </string-array>
+    <string name="title_activity_approved">ApprovedActivity</string>
+    <string name="cfu_validati">CFU validated</string>
+    <string name="aggiungi_cfu">add CFU</string>
+    <string name="richieste_già_effettuata">Request already sent</string>
+    <string name="scarica_allegati">Download Attachments</string>
+    <string name="stato">Status</string>
+</resources>

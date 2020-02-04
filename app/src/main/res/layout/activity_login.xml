@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gestioneUtente.LoginActivity">
+
+    <TextView
+        android:id="@+id/boxContainer"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/login"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/boxContainer"
+        app:layout_constraintStart_toStartOf="@+id/boxContainer"
+        app:layout_constraintTop_toTopOf="@+id/boxContainer" />
+
+    <TextView
+        android:id="@+id/tvLogin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/login2"
+        app:layout_constraintBottom_toTopOf="@+id/etEmail"
+        app:layout_constraintEnd_toEndOf="@+id/tvLogin"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvLogin"
+        app:layout_constraintTop_toBottomOf="@id/tvLogin" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:ellipsize="end"
+        android:ems="15"
+        android:gravity="left"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="@+id/boxContainer"
+        app:layout_constraintStart_toStartOf="@+id/boxContainer"
+        app:layout_constraintTop_toBottomOf="@id/tvLogin" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ellipsize="end"
+        android:ems="15"
+        android:gravity="left"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAlignment="gravity"
+        app:layout_constraintEnd_toEndOf="@+id/boxContainer"
+
+        app:layout_constraintStart_toStartOf="@+id/boxContainer"
+        app:layout_constraintTop_toBottomOf="@id/etEmail" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/accedi"
+        app:layout_constraintEnd_toEndOf="@+id/boxContainer"
+        app:layout_constraintStart_toStartOf="@+id/boxContainer"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxContainer">
+
+        <TextView
+            android:id="@+id/not_yet_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/non_ancora_registrato"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="657dp"
+
+            />
+
+        <TextView
+            android:id="@+id/register_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_now"
+            android:textColor="#000000"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="657dp" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_lingua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_standard" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressBackgroundTintMode="add"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/bLogin"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

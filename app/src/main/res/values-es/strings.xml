@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    //GLOBAL
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="v_password">Verificar Password</string>
+    <string name="send">Presentar</string>
+
+    //LOGIN
+    <string name="login">Login</string>
+    <string name="login2">Inserte Username y Password para acceder</string>
+    //ENDLOGIN
+    <string name="home">Home</string>
+    <string name="nome">Nombre</string>
+    <string name="cognome">Apellido</string>
+
+    //ENDGLOBAL
+
+    <string name="not_yet_registered">¿Aún no te has registrado?</string>
+    <string name="register_now">Regístrate ahora</string>
+    <string name="login_failed">Los datos ingresados son incorrectos</string>
+    <string name="missing_data">Inserta tus datos</string>
+
+    //Activity_Register
+
+    <string name="registrazione_1">Inscripción</string>
+    <string name="registrazione_2">Rellene todos los campos para registrarse</string>
+    <string name="sesso">Género</string>
+    <string name="missingData">No ha completado todos los campos</string>
+    <string name="accedi">Acceder</string>
+    <string name="registrati">Regístrate ahora</string>
+    <string name="f">F</string>
+    <string name="m">M</string>
+    <string name="home_studente">Home Estudiante</string>
+    <string name="home_segreteria">Home Secretaría</string>
+    <string name="home_admin">Home Admin</string>
+    <string name="non_ancora_registrato">¿Aún no te has registrado?</string>
+    <string name="logo">logo</string>
+    <string name="id">ID</string>
+    <string name="data_rilascio">Fecha de lanzamiento</string>
+    <string name="data_scadenza">Fecha de caducidad </string>
+    <string name="inoltra">Reenviar</string>
+    <string name="anno">Año</string>
+    <string name="livello">Nivel</string>
+    <string name="seriale">Número de serie </string>
+    <string name="cfu_da_validare">CFU por validar</string>
+    <string name="studente">Estudiante</string>
+    <string name="richiesta">Pregunta</string>
+    <string name="anno_accademico">Curso académico </string>
+    <string name="matricola">Número de matrícula universitaria</string>
+    <string name="ente">Organismo</string>
+    <string name="ente_di_rilascio">Organismo expedidor</string>
+    <string name="cfu_da_conseguire">CFU de alcanzar </string>
+    <string name="invia">Enviar</string>
+    <string name="anno_di_immatricolazione">Año de matriculación universitaria</string>
+    <string name="modifica_profilo">Editar Perfil</string>
+    <string name="inserisci_richiesta">Inscribe la solicitud</string>
+    <string name="logout">Logout</string>
+    <string name="guida">Instrucción</string>
+    <string name="richieste_approvate">Solicitudes aprobadas</string>
+    <string name="richieste_rifiutate">Solicitudes rechazadas</string>
+    <string name="rifiuta">RECHEZAR</string>
+    <string name="approva">APROBADO</string>
+    //End Activity_Register
+
+    //SPINNER ENTE
+    <string-array name="enti">
+        <item>Cambridge Assessment English</item>
+        <item>City and Guilds (Pitman)</item>
+        <item>Edexcel /Pearson Ltd </item>
+        <item>Educational Testing Service (ETS)</item>
+        <item>English Speaking Board (ESB)</item>
+        <item>International English Language Testing System (IELTS)</item>
+        <item>Pearson - LCCI</item>
+        <item>Pearson - EDI</item>
+        <item>Trinity College London (TCL)</item>
+        <item>Department of English, Faculty of Arts - University of Malta</item>
+        <item>NQAI - ACELS</item>
+
+    </string-array>
+
+    //SPINNER CFU
+    <string-array name="cfu">
+        <item>3</item>
+        <item>6</item>
+    </string-array>
+    <string name="title_activity_approved">ApprovedActivity</string>
+    <string name="cfu_validati">CFU Validado</string>
+    <string name="aggiungi_cfu">añadir CFU</string>
+    <string name="richieste_già_effettuata">Solicitud ya enviada</string>
+    <string name="scarica_allegati">Descargar adjuntos</string>
+    <string name="stato">Estado</string>
+</resources>
