@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "excel4node": "^1.7.2",
     "exceljs": "^3.5.0",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "firebase": "^7.6.1",
     "firebase-admin": "^8.9.1",
     "http-errors": "~1.6.3",
